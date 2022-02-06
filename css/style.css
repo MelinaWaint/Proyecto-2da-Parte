@@ -351,14 +351,17 @@ margin-bottom: 20px;
 font-family: 'Mulish', sans-serif;
 }
 
+.contenedorIt{
+    display: flex;
+    align-content: center;
+}
 
 .bloqueIt{
     display: flex;
-    margin: 20px 200px;
 }
 
 .carousel{
-    width: 40%;
+    width: 30%;
     margin: 20px;
     padding: 10px;
     border: black solid 5px;
@@ -675,6 +678,31 @@ padding: 30px;
     }
 
 
+   /*MEDIAQUERIES ADAPTACION CELULAR INFOTEC.HTML*/
+
+   .contenedorIt{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+   }
+
+   .bloqueIt{
+       display: flex;
+       flex-direction: column;
+       justify-items: center;
+       justify-content: center;
+   }
+
+   .carousel{
+       width: 80%;
+       margin-left: 50px;
+   }
+
+   .contenedorTextoMain{
+       display: flex;
+       justify-items: center;
+       width: 90%;
+   }
 
     /*MEDIAQUERIES ADAPTACION CELULAR MM.HTML*/
 
@@ -866,6 +894,19 @@ padding: 30px;
     }
 
     
+    /*MEDIAQUERIES ADAPTACION TABLET INFOTEC*/
+
+    .quienesSomos{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        width: 90%;
+    }
+
+    .h2InfoTec{
+        width: 40%;
+    }
+
 
     /*MEDIAQUERIES ADAPTACION TABLET MM*/
 
